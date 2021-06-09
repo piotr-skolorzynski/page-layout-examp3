@@ -1,0 +1,9 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Ultra', serif; */
+    box-sizing: border-box;
+}
