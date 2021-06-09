@@ -6,4 +6,39 @@ body {
     font-family: 'Noto Sans', sans-serif;
     /* font-family: 'Ultra', serif; */
     box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav {
+    display: grid;
+    /* grid-template-rows: repeat(4, minmax(200px 25vh));
+    align-items: center;
+    justify-items: center; */
+}
+
+.link-today {
+    grid-row: 1/2;
+}
+
+.link-about {
+    grid-row: 2/3;
+}
+
+.link-museum {
+    grid-row: 3/4;
+}
+
+.link-ath22 {
+    grid-row: 4/5;
 }
