@@ -4,9 +4,7 @@ html {
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    /* font-family: 'Ultra', serif; */
     box-sizing: border-box;
-    min-height: 100vh;
 }
 
 .page-wrapper {
@@ -26,6 +24,7 @@ body {
     padding: 1rem 2rem 1rem 0;
     border: 0;
     background: transparent;
+    cursor: pointer;
 }
 
 .burger-btn i {
@@ -33,6 +32,7 @@ body {
 }
 
 main {
+    position: relative;
     background-image: url('../img/main.jpg');
     width: 100%;
     background-position: center;
@@ -40,10 +40,51 @@ main {
     background-size: cover;
 }
 
+.logo {
+    position: relative;
+    font-family: 'Ultra', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20rem;
+    letter-spacing: 25px;
+    color: #ffda43;
+}
+
+.logo sup {
+    margin: 4rem 0 0;
+    position: absolute;
+    font-size: 5rem;
+}
+
+.choose-site-wrapper {
+    width: 30%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.fa-arrow-down {
+    margin: 1rem;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.choose-site {
+    width: 100%;
+}
+
 nav {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    grid-auto-rows: minmax(200px, auto);
     width: 100%;
     row-gap: 2rem;
 }
@@ -51,7 +92,7 @@ nav {
 .link {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 130px;
     padding: 3rem;
     background-position: center;
     background-repeat: no-repeat;
