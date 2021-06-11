@@ -73,36 +73,49 @@ main {
 }
 
 .choose-site-btn {
-    padding: 2rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
     border-radius: 50px;
+    border: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: ;
+    overflow: hidden;
 }
 
 .text {
+    padding: 2rem;
     display: inline-block;
     width: 20%;
     height: 100%;
     font-size: 1.4rem;
     font-weight: bold;
+    background-color: #ffda43;
 }
 
 .choose-site {
+    padding: 2rem;
     width: 80%;
     display: flex;
     justify-content: space-between;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.fa-angle-up {
+    font-size: 1.6rem;
 }
 
 .fa-arrow-down {
-    margin: 1rem 2rem;
+    margin: 1rem 3rem 2rem;
     color: #fff;
     font-size: 3rem;
 }
 
 .choose-site {
     width: 100%;
+    background-color: #ffec8d;
 }
 
 nav {
